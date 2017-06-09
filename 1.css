@@ -1,19 +1,23 @@
 * {
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 video {
-    width:45%;
+    width: 45%;
     height: auto;
 	}
-body{
-	 background-image:url("da.jpg");}
-.row:after {
+body {
+	background-image: url("da.jpg");
+}
+.wrapper:after {
     content: "";
     clear: both;
-    display: table;}
+    display: table;
+}
 [class*="col-"] {
     float: left;
     padding: 15px;
-    width: 100%;}
+    width: 100%;
+}
 @media only screen and (min-width: 600px) {
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -43,54 +47,61 @@ body{
     .col-12 {width: 100%;}
 }
 html {
-    font-family: "Lucida Sans", sans-serif;}
-h1{
-	 color:White;
-	 font-size:190%;}
-img{
+    font-family: "Lucida Sans", sans-serif;
+}
+h1 {
+	color: White;
+	font-size: 190%;
+}
+img {
 	max-width: 100%;
-    height: auto;}
+    height: auto;
+}
 .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color:PaleGreen;
-    color:black;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+    background-color: PaleGreen;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 .menu li:hover {
-    background-color: #0099cc;}
-.aside{
-	background-color:PaleTurquoise;
+    background-color: #0099cc;
+}
+.Contributions {
+	background-color: PaleTurquoise;
     padding: 15px;
-    color:black;
+    color: black;
     text-align: center;
     font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
 @media only screen and (orientation: landscape) {
-     .aside {
-		 background-color:	NavajoWhite;}
+    .Contributions {
+		background-color: NavajoWhite;
+    }
 }
 
-.do{
-	 color:White;}
-footer{
-	 color:red;
-	 margin-top:100px;
-	 margin-left:40px;}
-
-a{
-	 color:Crimson;
-	 text-decoration:none;
+.do {
+	color: White;
 }
-.un{
-	 width:590px;
-	 margin-left:-600px;
-	 margin-top:-530px;}
-.hu{
-	 width:400px;
-	 margin-left:900px;
-	 margin-top:-530px;}
+footer {
+	color: red;
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+a {
+	color: Crimson;
+	text-decoration: none;
+}
+.un {
+	width: 590px;
+	margin-left: -600px;
+	margin-top: -530px;
+}
